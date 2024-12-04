@@ -1,5 +1,9 @@
+package `2023`
+
+import readLines
+
 fun main() {
-    val lines = readInput("Day03")
+    val lines = readLines("2023","Day03")
     val parts = mapEngineParts(lines)
 
     println("Part 1 answer: " + parts.values.sumOf { it.sum() })

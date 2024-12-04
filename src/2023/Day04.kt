@@ -1,5 +1,9 @@
+package `2023`
+
+import readLines
+
 fun main() {
-    val cards = readInput("Day04")
+    val cards = readLines("2023","Day04")
 
     val cardsInfo = buildList {
         cards.forEach { card ->

@@ -1,5 +1,9 @@
+package `2023`
+
+import readLines
+
 fun main() {
-    val strings = readInput("Day01")
+    val strings = readLines("2023","Day01")
 
     val partOneSum = strings.sumOf { line ->
         val first = line.first { it.isDigit() }

@@ -1,5 +1,9 @@
+package `2023`
+
+import readLines
+
 fun main() {
-    val games = readInput("Day02")
+    val games = readLines("2023","Day02")
 
     val validGamesSum = games.sumOf { game -> getValidGameId(game) }
     println("Part 1 answer: $validGamesSum")
